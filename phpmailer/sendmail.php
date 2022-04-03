@@ -10,8 +10,8 @@ $mail ->CharSet = 'UTF-8'
 $mail ->setLanguage('ru', 'phpmailer/language/');
 $mail ->IsHTML(true);
 
-$mail ->setForm('skaalfee@gmail.com', "Кафе-Кондитерская Ай-Ли");
-$mail ->addAddress('svchesnovski@h=gmail.com');
+$mail ->setForm('skaalfee@gmail.com', "Кафе-Кондитерская АйЛи");
+$mail ->addAddress('svchesnovski@gmail.com');
 $mail ->Subject = 'Новый заказ';
 
 $body = '<h1>Поступил новый заказ!</h1>';
